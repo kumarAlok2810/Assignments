@@ -1,5 +1,7 @@
 package assignment;
 
+import java.util.HashMap;
+import java.util.Map;
 
 public class Arrays_DataTypes_Operator {
 
@@ -29,6 +31,12 @@ public class Arrays_DataTypes_Operator {
 	    marks[0]+= 10;
 	    marks[1]+= 10;
 	    marks[2]+= 10;
+	    
+	   Map<String,Integer> StudentData= new HashMap<>();
+	   StudentData.put("Suresh",75);
+	   StudentData.put("Mahesh",80);
+	   StudentData.put("Naresh",82);
+	   
 	    
 	    
 	    
